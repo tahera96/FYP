@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="home.css"> 		<!--called css file for home page-->
+	
+
+<title>HomePage</title>    
+
+<script src="home.js"></script> 
+
+</head>
+
+<body>
+
+  <img id="img" src="logo.jpg">					<!-- create a website logo-->
+ 
+
+
+
+<ul>			<!--horizontal bar-->
+
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="about us1.html">About Us</a></li>
+  <li><a href="Gallery.html">Gallery</a></li>
+  <li><a href="Service.html">Service</a></li>
+  <li><a href="Contactus.html">ContactUs</a></li>
+</ul>
+
+
+
+<h1>ISLAMIC BURIAL SERVICES LTD</h1>				<!--Heading three-->
+
+
+
+
+<marquee class="marquee">		<!--used for scrolling piece of text display horizontally-->
+
+"We will be happy to provide any advice & assistance you need."
+</marquee>
+
+
+<div class="box">       <!--creating a paraghaph block-->
+
+Praise be to Allah, the Lord of the Worlds; and may His blessings and peace be upon our Prophet Muhammad and upon all his Family and 
+Companions.<br>In Islam the funeral process is the duty and responsibility of every Muslim community.It is an obligatory act for Muslims. If it is done by atleast one person of the society then the society released from their responsibility but 
+if not then it will considered as sinful for the  entire  society.<br>In Malaysia this role has been shared between the local mosque and the 
+Funeral Director. In Islam there are differences between burial of man and woman.Sometimes it is hard to fulfil all the requirements from the family.
+Islamic Funeral Services Ltd (IFS) was established in 2015 to fulfil the role of a Muslim Funeral Director in Selangor state. We are here to help all the Muslim 
+ family to find the right place in the right moment for their loved one.
+
+
+</div>
+
+
+
+<div class="box" style="margin-bottom:60px">
+  <img src="mosque.jpg">
+</div>
+
+ 
+<video class="video" controls style="margin-right:60px">   	<!-- created a video file-->
+  <source src="video-1481815612.mp4" type="video/mp4">
+ 
+</video>
+
+<div id="map" style="width:550px;height:350px;"></div> 
+        
+      <!--for map-->
+	  
+      <script>
+            function initMap() {
+        var uluru = {lat: 3.139003, lng: 101.68685499999992};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru
+		  
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaPp7ths1rRAb3Bwa5oK39ffqtNgSUuXo&callback=initMap">
+    </script>
+
+<footer>			<!--maked footer-->
+  <p class="inline">privacy and policy</p>
+  <p class="inline">help</p>
+
+</footer>
+
+
+</body>
+</html>

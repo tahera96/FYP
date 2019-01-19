@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<title>Gallery</title>
+<script src="home.js"></script>  
+<style>
+
+body{
+    background-color: lightpink;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+#img{
+    width: 40%;
+    height: 68px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+li {
+    float: left;
+   
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left:0px;
+    padding: 14px 95px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+li.right{
+    float: right;
+}
+
+
+@media screeen and (max-width: 600px){
+     li.right,
+     li{
+        float: none;
+     }
+
+}
+
+
+
+
+div.img {
+    margin: 13px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 570px;
+}
+
+div.img:hover {
+    border: 3px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    display:inline-block;
+   left:0px;
+   color: white;
+   bottom:0px;
+   height:90px;
+   width:100%;
+   padding: 20px;
+   margin-top: 10px;
+   background:black;
+}
+
+.inline{
+    display:inline-block;
+    padding-left: 50px;
+}
+
+
+</style>
+</head>
+<body>
+ <img id="img" src="logo.jpg">					<!-- create a website logo-->
+ 
+
+
+
+<ul>			<!--horizontal bar-->
+
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="about us1.html">About Us</a></li>
+  <li><a href="Gallery.html">Gallery</a></li>
+  <li><a href="Service.html">Service</a></li>
+  <li><a href="ContactUs.html">ContactUs</a></li>
+</ul>
+
+
+
+
+
+<div class="img">
+  <a target="_blank" href="img1.jpg">
+    <img src="Gallery/img1.jpg" alt="img1.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Mosque</div>
+<a target="_blank" href="img2.jpg">
+    <img src="Gallery/img2.jpg" alt="img2.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Mosque</div>
+<a target="_blank" href="img3.jpg">
+    <img src="Gallery/img3.jpg" alt="img3.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Clothes</div>
+ <a target="_blank" href="img4.jpg">
+    <img src="Gallery/img4.jpg" alt="img4.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Washplace</div>
+ <a target="_blank" href="img5.jpg">
+    <img src="Gallery/img5.jpg" alt="img5.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Washplace</div>
+</div>
+
+
+
+<div class="img">
+  <a target="_blank" href="img6.jpg">
+    <img src="Gallery/img6.jpg" alt="img6.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Washplace</div>
+<a target="_blank" href="img7.jpg">
+    <img src="Gallery/img7.jpg" alt="img7.jpg" width="150" height="100">
+  </a>
+  
+  
+  
+  
+  <div class="desc">Washplace</div>
+<a target="_blank" href="img8.jpg">
+    <img src="Gallery/img8.jpg" alt="img8.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Washplace</div>
+ <a target="_blank" href="img9.jpg">
+    <img src="Gallery/img9.jpg" alt="img9.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Janaza place</div>
+ <a target="_blank" href="img10.jpg">
+    <img src="Gallery/img10.jpg" alt="img10.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Janaza place</div>
+</div>
+
+
+
+
+
+<div class="img">
+  <a target="_blank" href="img11.jpg">
+    <img src="Gallery/img11.jpg" alt="img11.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Janaza place</div>
+<a target="_blank" href="img12.jpg">
+    <img src="Gallery/img12.jpg" alt="img12.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Burial place</div>
+<a target="_blank" href="img13.jpg">
+    <img src="Gallery/img13.jpg" alt="img13.jpg" width="150" height="200">
+  </a>
+  <div class="desc">Burial place</div>
+ <a target="_blank" href="img14.jpg">
+    <img src="Gallery/img14.jpg" alt="img14.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Burial place</div>
+ <a target="_blank" href="img15.jpg">
+    <img src="Gallery/img15.jpg" alt="img15" width="150" height="100">
+  </a>
+  <div class="desc">Burial place</div>
+</div>
+<div class="img">
+  <a target="_blank" href="img16.jpg">
+    <img src="Gallery/img16.jpg" alt="img16.jpg" width="150" height="100">
+  </a>
+  <div class="desc">Burial place</div>
+<a target="_blank" href="img17.jpg">
+    <img src="Gallery/img17.jpg" alt="Fjords" width="150" height="100">
+  </a>
+  <div class="desc">Burial place</div>
+</div>
+
+
+<footer>			<!--maked footer-->
+  <p class="inline">privacy and policy</p>
+  <p class="inline">help</p>
+
+</footer>
+
+
+</body>
+</html>
+
+
